@@ -1,5 +1,5 @@
 class WelcomeController < ApplicationController
   def index
-    @nome = "Variável de Sessão"
+    @nome = params[:meu_nome]
   end
 end
